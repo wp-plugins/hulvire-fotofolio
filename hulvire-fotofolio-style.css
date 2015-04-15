@@ -1,0 +1,75 @@
+/* = .fotofolio
+---------------------------------------------------------------------------------------------------*/
+.fotofolio { 
+	margin: 0 auto; 
+	padding: 80px 0 0 0; 
+	text-align: left; 
+}
+.fotofolio .slides { 
+	margin: 0 0 10px 0; 
+	position: relative
+}
+.fotofolio p { 
+	margin: 0 10px; 
+	font-size: 11px; 
+	text-align: justify; 
+	color: #000; 
+}
+
+.textRight a { color: #1548B5; text-decoration: none; }
+
+.slide-container { display: block; }
+
+.slide-container .slide { cursor: pointer; }
+
+.slide {
+    top: 0;
+    width: 100%;
+    display: block;
+    position: absolute;
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+	display:none;
+}
+.image-popiska { position: absolute; bottom: -45px; display: none; }
+
+.active { display: block !important; }
+
+.navig label,.navig span {
+    position: absolute;
+	top:-30px;
+    z-index: 9;
+    cursor: pointer;
+    transition: opacity .2s;
+    color: #777;
+    font-size: 11px;
+    text-align: right;
+}
+
+.navig label:hover { color: #000; }
+
+.navig .prev { left: 0px; }
+.navig span { left: 50px; }
+.navig .next { left: 60px; }
+
+.folioContent { position: absolute; }
+.before-more { margin: 30px 0px 0px; }
+
+.folio-footer { font-size:11px;padding: 20px 0; }
+
+@media screen and (max-width: 59.6875em) {
+	/*
+	body::-webkit-scrollbar { width: 0 !important }
+	body { -ms-overflow-style: none; }
+	body { overflow: -moz-scrollbars-none; }
+	*/
+	.navig .prev { left: 10px; }
+	.navig span { left: 60px; }
+	.navig .next { left: 70px; }
+	.slide { margin: 0px 5px !important; }
+	.folioContent p,
+	.image-popiska { margin: 0px 10px !important; }
+	
+}
