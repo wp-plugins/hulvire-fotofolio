@@ -1,14 +1,14 @@
 === Hulvire Fotofolio ===
 Contributors: (this should be a list of wordpress.org userid's)
 Donate link: http://amfajnor.sk/
-Tags: comments, spam
+Tags: foto, portfolio, photo, gallery, photo folio,
 Requires at least: 3.0.1
 Tested up to: 3.4
 Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin to show simple fotofolio. This plugin need for propper function Meta Box plugin to be installed.
+Plugin to show simple fotofolio.
 
 == Description ==
 
@@ -24,7 +24,6 @@ Simple text entry and thumbnail pictures, option to add multiple images.
 `[huu_fotofolio]`
 
 This plugin needs for proper function Meta Box plugin installed.
-Optional is WP Lightbox 2 or any.
 
 
 == Screenshots ==
@@ -36,18 +35,13 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 2. This is the second screen shot
 
 == Changelog ==
+
+= 1.2 =
+*
+*
+
+
 = 1.0 =
 * A change since the previous version.
-* Another change.
-
-= 0.5 =
-* List versions from most recent at top to oldest at bottom.
-
-== Upgrade Notice ==
-
-= 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
-
-= 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
+* first construct
 
