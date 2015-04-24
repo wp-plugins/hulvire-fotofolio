@@ -22,6 +22,9 @@ Simple text entry and thumbnail pictures, option to add multiple images.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Place in your pages
 `[huu_fotofolio]`
+1. in themes
+`huu_fotofolio();`
+
 
 This plugin needs for proper function Meta Box plugin installed.
 
@@ -29,9 +32,13 @@ This plugin needs for proper function Meta Box plugin installed.
 == Screenshots ==
 
 1. This is settings of plugin
-2. This is plugin showed on wordpress page
+2. This is plugin in wordpress page
 
 == Changelog ==
+
+= 1.3 =
+* Removed major bug which not allow the activation of more than one hulvire plugin
+
 
 = 1.2 =
 *

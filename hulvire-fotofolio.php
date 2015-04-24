@@ -3,7 +3,7 @@
 Plugin Name: Hulvire fotofolio
 Plugin URI: http://www.amfajnor.sk/_hulvire_web/hulvire%20old/index.htm
 Description: 
-Version: 1.2.1
+Version: 1.3
 Author: Fajnor
 Author URI: http://amfajnor.sk
 License: GPL2
@@ -38,7 +38,7 @@ if(!class_exists('WP_Hulvire_Fotofolio'))
 			
 			
 			
-			define( 'HUU_VERSION', '1.2.1' );
+			define( 'HUU_VERSION', '1.3' );
 			define( 'HUU__PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 			define( 'HUU__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
@@ -51,7 +51,7 @@ if(!class_exists('WP_Hulvire_Fotofolio'))
 			require_once('post-types/hulvire-fotofolio-text-type.php');
 			
 			
-			function huu_script(){/*
+			function huu_fotofolio_script(){/*
 				$settingA = get_option('setting_animacia');
 
 				echo "<script type='text/javascript' charset='utf-8'>
@@ -66,7 +66,7 @@ if(!class_exists('WP_Hulvire_Fotofolio'))
 				</script>";
  			   */
 			}
-			add_action('wp_head', 'huu_script');
+			add_action('wp_head', 'huu_fotofolio_script');
 
 			function huu_get_fotofolio(){
 				
